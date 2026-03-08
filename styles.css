@@ -98,6 +98,12 @@ a {
   object-fit: contain;
 }
 
+.partner-logo {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+}
+
 .site-nav {
   display: flex;
   gap: 24px;
@@ -271,6 +277,21 @@ main {
 .detail-icon svg {
   width: 26px;
   height: 26px;
+}
+
+.location-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.location-logo {
+  height: 20px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.9;
 }
 
 .agenda-list {
@@ -448,6 +469,15 @@ main {
   .site-nav {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .logo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .partner-logo {
+    height: 28px;
   }
 
   .agenda-item {
